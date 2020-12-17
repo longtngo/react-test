@@ -3,27 +3,29 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/react": "^8.0.1",
-    "create-react-app": "^1.4.3",
-    "jest-dom": "^3.5.0",
+    "create-react-app": "^4.0.1",
     "prop-types": "^15.7.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "1.0.17",
-    "save": "^2.4.0"
+    "react-scripts": "^4.0.1"
   },
   "scripts": {
     "start": "./node_modules/.bin/react-scripts start",
     "pretest": "npm install",
     "test": "./node_modules/.bin/react-scripts test --verbose --env=jsdom --testResultsProcessor ./node_modules/jest-junit"
   },
-  "devDependencies": {
-    "chai": "^4.2.0",
-    "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.2",
-    "expect": "^21.2.1",
-    "jest-junit": "^3.7.0",
-    "react-test-renderer": "^16.13.1"
+  "devDependencies": {},
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
