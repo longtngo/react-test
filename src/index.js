@@ -30,4 +30,3 @@ const SLIDES = [
 ];
 
 ReactDOM.render(<App slides={SLIDES} />, document.getElementById('root'));
-registerServiceWorker();
