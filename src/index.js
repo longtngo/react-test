@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import registerServiceWorker from './registerServiceWorker';
 
 // slideshow URL: https://api.mockaroo.com/api/e0220220?count=100&key=72f8fad0
 
