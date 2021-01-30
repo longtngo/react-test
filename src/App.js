@@ -1,11 +1,10 @@
 import React, { Component } from "react";
-import { Layout, PageHeader } from "antd";
+import { Layout } from "antd";
+import "./App.css";
+import Slides from "./components/Slides";
 
 const { Content, Header } = Layout;
 
-import "./App.css";
-
-import Slides from "./components/Slides";
 class App extends Component {
   render() {
     return (
